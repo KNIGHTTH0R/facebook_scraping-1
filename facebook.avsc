@@ -1,0 +1,23 @@
+{
+    "namespace": "com.gdn.facebook.entity.posts",
+    "type": "record",
+    "name": "facebook_data",
+    "doc": "Facebook Data",
+    "fields": [
+        {"name": "id", "type": ["string","null"]},
+        {"name": "post_url", "type": ["string","null"]},
+        {"name": "platform", "type": ["string","null"]},
+        {"name": "organisation", "type": ["string","null"]},
+        {"name": "caption", "type": ["string","null"]},
+        {"name": "post_type", "type": ["string","null"]},
+        {"name": "post_details", "type": ["string","null"]},
+        {"name": "source", "type": ["string","null"]},
+        {"name": "source_details", "type": ["string","null"]},
+        {"name": "post_time", "type": ["string","null"]},
+        {"name": "no_of_likes", "type": ["double","null"]},
+        {"name": "no_of_dislikes", "type": ["double","null"]},
+        {"name": "no_of_shares", "type": ["string","null"]},
+        {"name": "no_of_comments", "type": ["string","null"]},
+        {"name": "no_of_views", "type": ["string","null"]}
+    ]
+}
